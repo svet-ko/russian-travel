@@ -1,0 +1,21 @@
+.lead__paragraph {
+  margin: 0 auto;
+  margin-bottom: 40px;
+  line-height: 1.25;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .lead__paragraph {
+    margin-bottom: 56px;
+    max-width: 640px;
+    font-size: 30px;
+    line-height: 1.2;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__paragraph {
+    margin-bottom: 64px;
+  }
+}

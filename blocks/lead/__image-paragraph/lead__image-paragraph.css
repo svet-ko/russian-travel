@@ -1,0 +1,19 @@
+.lead__image-paragraph {
+  margin-left: 16px;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+  .lead__image-paragraph {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__image-paragraph {
+    margin-left: 0;
+  }
+}

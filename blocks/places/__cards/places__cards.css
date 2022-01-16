@@ -1,0 +1,17 @@
+.places__cards {
+  display: grid;
+  row-gap: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .places__cards {
+    justify-items: center;
+    row-gap: 71px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .places__cards {
+    row-gap: 80px;
+  }
+}

@@ -1,0 +1,16 @@
+.places__container {
+  margin-bottom: 55px;
+}
+
+@media screen and (min-width: 768px) {
+  .places__container {
+    width: 100%;
+    margin-bottom: 89px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .places__container {
+    margin-bottom: 93px;
+  }
+}

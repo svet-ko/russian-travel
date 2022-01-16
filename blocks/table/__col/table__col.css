@@ -1,0 +1,8 @@
+.table__col {
+  margin: 0;
+  padding: 0;
+}
+
+.table__col:not(:last-child) {
+  margin-right: 5px;
+}

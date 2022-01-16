@@ -1,0 +1,15 @@
+.card__link-container {
+  align-self: end;
+  width: 90%;
+  margin-bottom: 32px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .card__link-container {
+    width: 100%;
+    margin-bottom: 48px;
+  }
+}

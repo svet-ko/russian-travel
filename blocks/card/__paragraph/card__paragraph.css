@@ -1,0 +1,13 @@
+.card__paragraph {
+  width: 100%;
+}
+
+.card__paragraph:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: 1024px) {
+  .card__paragraph {
+    font-size: 18px;
+  }
+}

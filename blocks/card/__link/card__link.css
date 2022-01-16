@@ -1,0 +1,8 @@
+.card__link {
+  width: fit-content;
+  border-bottom: 1px solid white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+}
