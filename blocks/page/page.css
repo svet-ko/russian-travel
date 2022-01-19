@@ -7,7 +7,7 @@
   padding-top: 16px;
   padding-bottom: 24px;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', 'Arial', sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }

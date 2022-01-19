@@ -1,6 +1,5 @@
 .header__list-item {
   box-sizing: border-box;
-  border-bottom: 1px solid transparent;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -10,10 +9,6 @@
 
 .header__list-item:not(:last-child) {
   margin-right: 18px;
-}
-
-.header__list-item:hover {
-  border-bottom: 1px solid rgba(256, 256, 256, .8);
 }
 
 @media screen and (min-width: 768px) {

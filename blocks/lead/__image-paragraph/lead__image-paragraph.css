@@ -1,5 +1,9 @@
 .lead__image-paragraph {
+  margin: 0;
+  padding: 0;
   margin-left: 16px;
+  font-style: normal;
+  font-weight: normal;
   font-size: 10px;
   line-height: 1.4;
   letter-spacing: 1.5px;
