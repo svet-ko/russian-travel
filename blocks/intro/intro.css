@@ -1,4 +1,37 @@
+/*.intro {
+  width: 100%;
+  box-sizing: border-box;
+}*/
+
 .intro {
   width: 100%;
   box-sizing: border-box;
+  padding: 0 16px;
+  margin-bottom: 63px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .intro {
+    padding: 0 24px;
+    margin: 0 auto 88px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro {
+    width: 90.6%;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 92px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro {
+    width: 100%;
+    padding: 0 100px;
+  }
 }

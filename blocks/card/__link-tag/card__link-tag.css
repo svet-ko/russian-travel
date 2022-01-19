@@ -1,6 +1,10 @@
 .card__link-tag {
-  margin-bottom: 12px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 11px;
   font-size: 12px;
   line-height: 1;
   color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }

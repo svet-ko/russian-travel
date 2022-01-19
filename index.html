@@ -7,10 +7,9 @@
   <link rel="stylesheet" href="./pages/index.css">
   <title>Путешествия по России</title>
 </head>
-<body>
+<body class="body">
   <div class="page">
     <header class="header">
-      <div class="container header__container">
         <img class="logo" src="images/logo.svg" alt="Логотип">
         <ul class="list header__list">
           <li class="header__list-item">
@@ -20,76 +19,50 @@
             <a href="#" class="link header__link">En</a>
           </li>
         </ul>
-      </div>
     </header>
     <main class="content">
       <section class="lead">
-        <div class="container lead__container">
           <h1 class="lead__title">Путешествия по&nbsp;России</h1>
           <p class="lead__paragraph">Настоящая страна не&nbsp;в&nbsp;выпусках новостей, а&nbsp;здесь.</p>
           <img class="lead__image" src="./images/lead-polka.jpg" alt="Карта путешествия">
           <p class="lead__image-paragraph">ваша полка &#8212; верхняя</p>
-        </div>
       </section>
+
       <section class="intro">
-        <div class="container intro__container">
           <h2 class="intro__title">Чего мы&nbsp;там не&nbsp;видели?</h2>
           <p class="intro__paragraph">По&nbsp;опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но&nbsp;только&nbsp;36% планируют провести отпуск в&nbsp;родной стране. Мол, чего мы&nbsp;тут, дома, не&nbsp;видели? На&nbsp;самом деле, Россия&nbsp;&mdash; это целая вселенная с&nbsp;ласковым морем юга, густыми лесами Саян и&nbsp;суровыми льдами плато Путорана. А&nbsp;ещё увидеть все эти красоты можно без&nbsp;миллионов на&nbsp;счету, загранпаспорта и&nbsp;многочасовых перелетов. Как, например, Вера Башмакова&nbsp;&mdash; смелая молодая мама, которая взяла в&nbsp;охапку троих детей, усадила их&nbsp;в&nbsp;свою &laquo;Ладу&raquo; и&nbsp;проехала 20&nbsp;тысяч километров по&nbsp;родной стране. Мы&nbsp;выбрали и&nbsp;описали некоторые интересные места, достойные вашего отпуска.</p>
           <ul class="list intro__list">
             <li class="intro__list-item"><span class="intro__span-accent">Часовых поясов</span> 11</li>
             <li class="intro__list-item"><span class="intro__span-accent">Объектов природного наследия ЮНЕСКО</span> 12</li>
-            <li class="intro__list-item"><span class="intro__span-accent">Объектов природного наследия ЮНЕСКО</span> 16</li>
+            <li class="intro__list-item"><span class="intro__span-accent">Объектов культурного наследия ЮНЕСКО</span> 16</li>
             <li class="intro__list-item"><span class="intro__span-accent">Природных заповедников</span> 105</li>
             <li class="intro__list-item"><span class="intro__span-accent">Аэропортов</span> 241</li>
           </ul>
+      </section>
 
-          <!--<table class="table">
-            <tr class="table__row">
-              <td class="table__col table__col_bold">Часовых поясов</td>
-              <td class="table__col">11</td>
-            </tr>
-            <tr class="table__row">
-              <td class="table__col table__col_bold">Объектов природного наследия ЮНЕСКО</td>
-              <td class="table__col">12</td>
-            </tr>
-            <tr class="table__row">
-              <td class="table__col table__col_bold">Объектов культурного наследия ЮНЕСКО</td>
-              <td class="table__col">16</td>
-            </tr>
-            <tr class="table__row">
-              <td class="table__col table__col_bold">Природных заповедников</td>
-              <td class="table__col">105</td>
-            </tr>
-            <tr class="table__row">
-              <td class="table__col table__col_bold">Аэропортов</td>
-              <td class="table__col">241</td>
-            </tr>
-          </table>-->
-        </div>
+      <section class="photo-grid" aria-label="Секция с фотографиями из путешествий">
+        <ul class="list photo-grid__container">
+          <li><img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="Фотография поезда"></li>
+          <li><img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="Фотография Атавра Тулси"></li>
+          <li><img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="Фотография собаки в тумане"></li>
+          <li><img class="photo-grid__item" src="./images/photo-grid-sochi.jpg" alt="Фотография Сочи"></li>
+          <li><img class="photo-grid__item" src="./images/photo-grid-arisa.jpg" alt="Фотография Ариса"></li>
+          <li><img class="photo-grid__item" src="./images/photo-grid-baikal.jpg" alt="Фотография Байкала"></li>
+          <li><img class="photo-grid__item" src="./images/photo-grid-elbrus.jpg" alt="Фотография Эльбруса"></li>
+          <li><img class="photo-grid__item" src="./images/photo-grid-kondratiev.jpg" alt="Фотография Кондратьев"></li>
+          <li><img class="photo-grid__item" src="./images/photo-grid-kamchatka-1.jpg" alt="Фотография Камчатки"></li>
+          <li><img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg" alt="Фотография Камчатки"></li>
+          <li><img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="Фотография Байкала"></li>
+          <li><img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="Фотография из путешествия"></li>
+        </ul>
       </section>
-      <section class="photo-grid">
-        <div class="container photo-grid__container">
-          <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="Фотография из путешествия">
-          <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="Фотография из путешествия">
-          <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="Фотография из путешествия">
-          <img class="photo-grid__item" src="./images/photo-grid-sochi.jpg" alt="Фотография из путешествия">
-          <img class="photo-grid__item" src="./images/photo-grid-arisa.jpg" alt="Фотография из путешествия">
-          <img class="photo-grid__item" src="./images/photo-grid-baikal.jpg" alt="Фотография из путешествия">
-          <img class="photo-grid__item" src="./images/photo-grid-elbrus.jpg" alt="Фотография из путешествия">
-          <img class="photo-grid__item" src="./images/photo-grid-kondratiev.jpg" alt="Фотография из путешествия">
-          <img class="photo-grid__item" src="./images/photo-grid-kamchatka-1.jpg" alt="Фотография из путешествия">
-          <img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg" alt="Фотография из путешествия">
-          <img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="Фотография из путешествия">
-          <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="Фотография из путешествия">
-        </div>
-      </section>
+
       <section class="places">
-        <div class="container places__container">
           <ul class="list places__cards">
             <li class="card">
-              <h3 class="card__title">Куршская коса</h3>
+              <h2 class="card__title">Куршская коса</h2>
               <div class="card__link-container">
-                <span class="card__link-tag">URL</span>
+                <span class="card__link-tag">url</span>
                 <a href="http://park-kosa.ru" class="link card__link" target="_blank">park-kosa.ru</a>
               </div>
               <img class="card__img" src="./images/place-kosa.jpg" alt="Изображение Куршской косы">
@@ -99,9 +72,9 @@
               </div>
             </li>
             <li class="card">
-              <h3 class="card__title">Кольский</h3>
+              <h2 class="card__title">Кольский</h2>
               <div class="card__link-container">
-                <span class="card__link-tag">URL</span>
+                <span class="card__link-tag">url</span>
                 <a href="https://www.instagram.com/natgeoyourshot/" class="link card__link" target="_blank">National Geographic</a>
               </div>
               <img class="card__img" src="./images/place-kolsky.jpg" alt="Изображение Кольского полуострова">
@@ -111,9 +84,9 @@
               </div>
             </li>
             <li class="card">
-              <h3 class="card__title">Алтай</h3>
+              <h2 class="card__title">Алтай</h2>
               <div class="card__link-container">
-                <span class="card__link-tag">URL</span>
+                <span class="card__link-tag">url</span>
                 <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="link card__link" target="_blank">Facebook</a>
               </div>
               <img class="card__img" src="./images/place-altai.jpg" alt="Изображение Алтая">
@@ -123,9 +96,9 @@
               </div>
             </li>
             <li class="card">
-              <h3 class="card__title">Зимний Байкал</h3>
+              <h2 class="card__title">Зимний Байкал</h2>
               <div class="card__link-container">
-                <span class="card__link-tag">URL</span>
+                <span class="card__link-tag">url</span>
                 <a href="https://vk.com/baikalmile" class="link card__link" target="_blank">https://vk.com/baikalmile</a>
               </div>
               <img class="card__img" src="./images/place-winter-baikal.jpg" alt="Изображение Байкала зимой">
@@ -135,9 +108,9 @@
               </div>
             </li>
             <li class="card">
-              <h3 class="card__title">Карелия</h3>
+              <h2 class="card__title">Карелия</h2>
               <div class="card__link-container">
-                <span class="card__link-tag">URL</span>
+                <span class="card__link-tag">url</span>
                 <a href="http://vodlozero.ru" class="link card__link" target="_blank">http://vodlozero.ru/</a>
               </div>
               <img class="card__img" src="./images/place-karelia.jpg" alt="Изображение Карелии">
@@ -146,19 +119,18 @@
               </div>
             </li>
           </ul>
-        </div>
       </section>
+
       <section class="cover">
-        <div class="container cover__container">
           <a class="link cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
             <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
             <p class="cover__paragraph">По&nbsp;мотивам учебной темы о&nbsp;Транссибе&nbsp;&mdash; путешествие от&nbsp;столицы до&nbsp;Байкала на&nbsp;электричках.</p>
           </a>
-        </div>
       </section>
     </main>
+
     <footer class="footer">
-      <div class="container footer__container">
+      <nav class="footer__nav">
         <ul class="list footer__list">
           <li class="footer__list-item">
             <a href="https://yandex.ru/maps" class="link" target="_blank">Карты</a>
@@ -176,8 +148,8 @@
             <a href="https://travel.yandex.ru" class="link" target="_blank">Путешествия</a>
           </li>
         </ul>
+      </nav>
         <p class="footer__author">&copy; 2022 Светлана Корнеева</p>
-      </div>
     </footer>
   </div>
 </body>
