@@ -21,10 +21,9 @@
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__container/intro__container.css);
 @import url(../blocks/intro/__paragraph/intro__paragraph.css);
-@import url(../blocks/table/table.css);
-@import url(../blocks/table/__row/table__row.css);
-@import url(../blocks/table/__col/table__col.css);
-@import url(../blocks/table/__col/_bold/table__col_bold.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list-item/intro__list-item.css);
+@import url(../blocks/intro/__span-accent/intro__span-accent.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__container/photo-grid__container.css);

@@ -1,7 +1,6 @@
-.table__row {
+.intro__list {
   width: 100%;
-  display: flex;
-  justify-content: flex-start;
+  box-sizing: border-box;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
