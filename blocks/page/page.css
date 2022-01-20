@@ -1,5 +1,5 @@
 .page {
-  max-width: 1280px;
+  max-width: 1184px;
   min-width: 320px;
   width: 100%;
   margin: 0 auto;
@@ -16,11 +16,5 @@
 @media screen and (min-width: 768px) {
   .page {
     padding-top: 28px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .page {
-    width: 92.5%;
   }
 }
